@@ -57,10 +57,5 @@
 		"vscode": "^0.11.0",
 		"event-stream": "^3.3.2",
 		"vscode-languageclient": "^2.2.1"
-	},
-	"__metadata": {
-		"id": "533ea573-7e71-4f8b-9f2f-fd035e8cd32f",
-		"publisherId": "f5654cd1-0372-4edb-92da-7b5f722b9294",
-		"publisherDisplayName": "Isidoro,Otoniel"
 	}
 }
