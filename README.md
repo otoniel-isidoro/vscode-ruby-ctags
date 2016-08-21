@@ -10,7 +10,7 @@
 * Install ripper-tags "`gem install ripper-tags`" and open the user settings (File > Preferences > User Settings) and set the executable path of ripper-tags and the options to be used like the example below:
 ```
 "ctags": {
-    "executePath": "$home/.rbenv/shims/ripper-tags",
+    "executePath": "/home/username/.rbenv/shims/ripper-tags",
     "options": "--tag-file=.tags --recursive --force --exclude=/assets/ --exclude=.bundle --exclude=.git/ --exclude=coverage/ --exclude=.arcanist-extensions/ --exclude=log/ --exclude=tmp/ --exclude=bin/",
     "fileName": ".tags"
 }
