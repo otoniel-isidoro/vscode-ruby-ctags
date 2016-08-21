@@ -1,4 +1,4 @@
-# [Icon](./images/icon.png)  VSCODE Ruby-Ctags
+# [Icon](https://github.com/otoniel-isidoro/vscode-ruby-ctags/blob/master/images/icon.png)  VSCODE Ruby-Ctags
 ## This is the [Visual Studio Code](https://code.visualstudio.com/) extension to use [CTAGS](http://ctags.sourceforge.net/) with Ruby language through of [Ripper-Tags](https://github.com/tmm1/ripper-tags) 
 
 ### Prerequisites:
