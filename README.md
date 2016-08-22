@@ -32,6 +32,8 @@ Select the words in the vscode and press `ctrl+alt+t` (`cmd+alt+t` on mac)
 * Source : [otoniel-isidoro/vscode-ruby-ctags](https://github.com/otoniel-isidoro/vscode-ruby-ctags)
 
 ## Release Note
+* 2016.08.22 1.3.0 : Add new keywords 
+* 2016.08.22 1.2.0 : Change command description
 * 2016.08.21 1.1.0 : Fix npm `hashmap` dependency 
 * 2016.08.21 1.0.0 : First release
 
