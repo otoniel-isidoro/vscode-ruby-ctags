@@ -1,61 +1,64 @@
 {
-	"name": "vscode-ruby-ctags",
-	"displayName": "vscode-ruby-ctags",
-	"description": "VSCode Ruby ctags generator and navigator",
-	"version": "1.0.0",
-	"publisher": "otoniel-isidoro",
-	"icon": "images/icon.png",
-	"engines": {
-		"vscode": "0.10.x"
-	},
-	"categories": [
-		"Languages"
-	],
-	"activationEvents": [
-		"onCommand:extension.ctag_generate",
-		"onCommand:extension.ctag_search",
-		"onLanguage:ruby"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/otoniel-isidoro/vscode-ruby-ctags"
-	},
-	"main": "./out/src/extension",
-	"contributes": {
-		"commands": [
-			{
-				"command": "extension.ctag_generate",
-				"title": "CTAGS:Generate"
-			},
-			{
-				"command": "extension.ctag_search",
-				"title": "CTAGS:Search"
-			}
-		],
-		"keybindings": [
-			{
-				"command": "extension.ctag_generate",
-				"key": "ctrl+alt+g",
-				"mac": "cmd+alt+g"
-			},
-			{
-				"command": "extension.ctag_search",
-				"key": "ctrl+alt+t",
-				"mac": "cmd+alt+t",
-				"when": "editorTextFocus"
-			}
-		]
-	},
-	"scripts": {
-		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
-		"postinstall": "node ./node_modules/vscode/bin/install"
-	},
-	"devDependencies": {
-		"hashmap": "^2.0.6",
-		"typescript": "^1.7.5",
-		"vscode": "^0.11.0",
-		"event-stream": "^3.3.2",
-		"vscode-languageclient": "^2.4.2"
-	}
+    "name": "vscode-ruby-ctags",
+    "displayName": "vscode-ruby-ctags",
+    "description": "VSCode Ruby ctags generator and navigator",
+    "version": "1.1.0",
+    "publisher": "otoniel-isidoro",
+    "icon": "images/icon.png",
+    "engines": {
+        "vscode": "0.10.x"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "activationEvents": [
+        "onCommand:extension.ctag_generate",
+        "onCommand:extension.ctag_search",
+        "onLanguage:ruby"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/otoniel-isidoro/vscode-ruby-ctags"
+    },
+    "main": "./out/src/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.ctag_generate",
+                "title": "CTAGS:Generate"
+            },
+            {
+                "command": "extension.ctag_search",
+                "title": "CTAGS:Search"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "extension.ctag_generate",
+                "key": "ctrl+alt+g",
+                "mac": "cmd+alt+g"
+            },
+            {
+                "command": "extension.ctag_search",
+                "key": "ctrl+alt+t",
+                "mac": "cmd+alt+t",
+                "when": "editorTextFocus"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "dependencies": {
+        "hashmap": "^2.0.6"
+    },
+    "devDependencies": {
+        "hashmap": "^2.0.6",
+        "typescript": "^1.7.5",
+        "vscode": "^0.11.0",
+        "event-stream": "^3.3.2",
+        "vscode-languageclient": "^2.4.2"
+    }
 }
