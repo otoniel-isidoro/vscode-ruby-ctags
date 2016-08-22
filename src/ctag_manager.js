@@ -120,8 +120,9 @@ var CTAG_Manager = (function () {
         var info = this._tags.get(targetSymbol);
         var parent = this;
         if (info) {
-            if (info.length > 1){
-                vscode_1.window.showQuickPick(this._extract_class(info)).then(function (val) {
+            var classes = this._extract_class(info);
+            if (classes.length > 1){
+                vscode_1.window.showQuickPick(classes).then(function (val) {
                     parent._search_tag_on_doc(parent._get_info_from_class(info, val));
                 });
             } else {
@@ -132,7 +133,7 @@ var CTAG_Manager = (function () {
             this._tags.forEach(function(value, key) {
                 for (var i = 0; i < value.length; i++) {
                     if (value[i].class=="") break;
-                    if ((value[i].class.indexOf(targetSymbol)!=-1) || (targetSymbol.indexOf(value[i].class)!=-1)) {
+                    if (value[i].class.indexOf(targetSymbol)!=-1) {
                         if(value[i].type=="c" || value[i].type=="m" || value[i].type=="C"){
                             foundByClass.push(value[i]);
                         }

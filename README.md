@@ -22,11 +22,11 @@
 ## Keybindings
 ### 1. Generate ctags
 Press `ctrl+alt+g` (`cmd+alt+g` on mac)  
-// ![IDE](http://i.giphy.com/3oEjHLg2xzc5ZS2kEg.gif) 
+![IDE](http://i.giphy.com/l0MYD3PYsZgkAkvEQ.gif)
 
 ### 2. Search ctags
 Select the words in the vscode and press `ctrl+alt+t` (`cmd+alt+t` on mac)  
-// ![IDE](http://i.giphy.com/l0MYrSdrYUJ8Q6BJS.gif) 
+![IDE](http://i.giphy.com/l0MYQ3blbA8UDD0w8.gif) 
 
 ## Etc
 * Source : [otoniel-isidoro/vscode-ruby-ctags](https://github.com/otoniel-isidoro/vscode-ruby-ctags)
