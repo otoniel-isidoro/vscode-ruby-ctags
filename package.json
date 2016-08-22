@@ -5,6 +5,7 @@
     "version": "1.1.0",
     "publisher": "otoniel-isidoro",
     "icon": "images/icon.png",
+    "keywords": ["ruby", "ctags", "code navigation", "Go to Definition", "search code", "ripper-tags"],
     "engines": {
         "vscode": "0.10.x"
     },
@@ -25,11 +26,11 @@
         "commands": [
             {
                 "command": "extension.ctag_generate",
-                "title": "CTAGS:Generate"
+                "title": "CTAGS:Generate Ruby tags"
             },
             {
                 "command": "extension.ctag_search",
-                "title": "CTAGS:Search"
+                "title": "CTAGS:Search Ruby Code"
             }
         ],
         "keybindings": [
