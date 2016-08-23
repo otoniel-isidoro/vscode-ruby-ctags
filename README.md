@@ -16,8 +16,8 @@
 }
 ```
 * Open a source code directory using 'Open Folder'
-* Generate the ctag file for ruby using 'CTAGS:Generate' command. (Press 'F1' key and type 'CTAGS:Generate' or the keybinding `ctrl+alt+g`)
-* After the ctag file is generated, search the symbol by select it on editor and use 'CTAGS:Search' command. (Press 'F1' key and type 'CTAGS:Search' or the keybinding `ctrl+alt+t`);
+* Generate the ctag file for ruby using 'CTAGS:Generate Ruby tags' command. (Press 'F1' key and type 'CTAGS:Generate Ruby tags' or the keybinding `ctrl+alt+g`)
+* After the ctag file is generated, search the symbol by select it on editor and use 'CTAGS:Search Ruby code' command. (Press 'F1' key and type 'CTAGS:Search Ruby code' or the keybinding `ctrl+alt+t`);
 
 ## Keybindings
 ### 1. Generate ctags
@@ -31,12 +31,19 @@ Select the words in the vscode and press `ctrl+alt+t` (`cmd+alt+t` on mac)
 ## Etc
 * Source : [otoniel-isidoro/vscode-ruby-ctags](https://github.com/otoniel-isidoro/vscode-ruby-ctags)
 
-## Release Note
+## Release Notes
 * 2016.08.22 1.3.0 : Add new keywords 
 * 2016.08.22 1.2.0 : Change command description
 * 2016.08.21 1.1.0 : Fix npm `hashmap` dependency 
 * 2016.08.21 1.0.0 : First release
 
-### This is a fork of [hcyang1012/vscode_ctags](https://github.com/hcyang1012/vscode_ctags) that was adapted to work better with ruby language.
+## TODO
+* Integration with VSCODE Go To Definition [vscode-api#DefinitionProvider.provideDefinition](https://code.visualstudio.com/Docs/extensionAPI/vscode-api#DefinitionProvider.provideDefinition)
+* Integration with VSCODE Go to Symbol [vscode-api#languages.registerDocumentSymbolProvider](https://code.visualstudio.com/Docs/extensionAPI/vscode-api#languages.registerDocumentSymbolProvider)
+* Go To Definition with mouse click   
+
+## Credits
+#### This is a fork of [hcyang1012/vscode_ctags](https://github.com/hcyang1012/vscode_ctags) that was adapted to work better with ruby language.
 #### Thanks to hcyang1012!
-** Enjoy! **
+
+### Thanks to [Ripper-Tags](https://github.com/tmm1/ripper-tags) for the faster and accurate ctags generator! :) 

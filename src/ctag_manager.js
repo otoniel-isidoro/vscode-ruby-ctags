@@ -178,7 +178,7 @@ var CTAG_Manager = (function () {
         this._reset_if_need();
         var fs = require("fs");
         if (!file_manager.file_exists(this._get_tagpath())) {
-            error("Cannot read ctag file. Please run CTAGS:Generate command first.");
+            error("Cannot read ctag file. Please run CTAGS:Generate Ruby tags command first.");
         }
         else {
             if (this._status != Status.LOADED) {
