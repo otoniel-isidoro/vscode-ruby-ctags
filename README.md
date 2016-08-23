@@ -32,6 +32,7 @@ Select the words in the vscode and press `ctrl+alt+t` (`cmd+alt+t` on mac)
 * Source : [otoniel-isidoro/vscode-ruby-ctags](https://github.com/otoniel-isidoro/vscode-ruby-ctags)
 
 ## Release Notes
+* 2016.08.22 1.3.1 : Update README 
 * 2016.08.22 1.3.0 : Add new keywords 
 * 2016.08.22 1.2.0 : Change command description
 * 2016.08.21 1.1.0 : Fix npm `hashmap` dependency 
@@ -46,4 +47,4 @@ Select the words in the vscode and press `ctrl+alt+t` (`cmd+alt+t` on mac)
 #### This is a fork of [hcyang1012/vscode_ctags](https://github.com/hcyang1012/vscode_ctags) that was adapted to work better with ruby language.
 #### Thanks to hcyang1012!
 
-### Thanks to [Ripper-Tags](https://github.com/tmm1/ripper-tags) for the faster and accurate ctags generator! :) 
+#### Thanks to [Ripper-Tags](https://github.com/tmm1/ripper-tags) for the faster and accurate ctags generator! :) 
