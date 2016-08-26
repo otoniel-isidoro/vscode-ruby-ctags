@@ -17,7 +17,7 @@
 ```
 * Open a source code directory using 'Open Folder'
 * Generate the ctag file for ruby using 'CTAGS:Generate Ruby tags' command. (Press 'F1' key and type 'CTAGS:Generate Ruby tags' or the keybinding `ctrl+alt+g`)
-* After the ctag file is generated, search the symbol by select it on editor and use 'CTAGS:Search Ruby code' command. (Press 'F1' key and type 'CTAGS:Search Ruby code' or the keybinding `ctrl+alt+t`);
+* After the ctag file was generated, search the symbol by select it on editor and use 'CTAGS:Search Ruby code' command. (Press 'F1' key and type 'CTAGS:Search Ruby code' or the keybinding `ctrl+alt+t`);
 
 ## Keybindings
 ### 1. Generate ctags
@@ -32,7 +32,7 @@ Select the words in the vscode and press `ctrl+alt+t` (`cmd+alt+t` on mac)
 * Source : [otoniel-isidoro/vscode-ruby-ctags](https://github.com/otoniel-isidoro/vscode-ruby-ctags)
 
 ## Release Notes
-* 2016.08.22 1.4.0 : Fix runtime dependencies 
+* 2016.08.23 1.4.0 : Fix runtime dependencies 
 * 2016.08.22 1.3.1 : Update README 
 * 2016.08.22 1.3.0 : Add new keywords 
 * 2016.08.22 1.2.0 : Change command description
