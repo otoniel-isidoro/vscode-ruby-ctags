@@ -32,6 +32,7 @@ Select the words in the vscode and press `ctrl+alt+t` (`cmd+alt+t` on mac)
 * Source : [otoniel-isidoro/vscode-ruby-ctags](https://github.com/otoniel-isidoro/vscode-ruby-ctags)
 
 ## Release Notes
+* 2016.09.13 1.4.1 : Bug fix after vscode version update 
 * 2016.08.23 1.4.0 : Fix runtime dependencies 
 * 2016.08.22 1.3.1 : Update README 
 * 2016.08.22 1.3.0 : Add new keywords 

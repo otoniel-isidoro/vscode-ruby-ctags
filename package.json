@@ -2,7 +2,7 @@
     "name": "vscode-ruby-ctags",
     "displayName": "vscode-ruby-ctags",
     "description": "VSCode Ruby ctags generator and code navigator",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "publisher": "otoniel-isidoro",
     "icon": "images/icon.png",
     "keywords": [

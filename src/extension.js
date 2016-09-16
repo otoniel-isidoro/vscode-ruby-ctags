@@ -62,11 +62,12 @@ var Extension = (function () {
         var editor = getEditor();
         var query = getSelectedText(editor);
         console.log(query);
-        vscode.window.showInputBox({prompt: "Input the symbol name", value: query}).then(function (targetSymbol) {
-            parent.ctag_manager.search(targetSymbol, function (msg) {
+       vscode.window.showInputBox({prompt: "Input the symbol name", value: query}).then(val => 
+            
+            parent.ctag_manager.search(val.length==0 ? query : val, function (msg) {
                 notification.print_info(msg);
-            });
-        });
+            })
+        );
     };
     Extension.prototype.generate_tag = function () {
         this.ctag_manager.generate_tag();

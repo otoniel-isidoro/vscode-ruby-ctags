@@ -5,7 +5,7 @@ var notification = require("./notification");
 var file_manager = require("./file_manager");
 var CTAG_COMMAND = "ripper-tags";
 var CTAG_OPTION = "--tag-file=.tags --recursive --force --exclude=/assets/ --exclude=.bundle --exclude=.git/ --exclude=coverage/ --exclude=.arcanist-extensions/ --exclude=log/ --exclude=tmp/ --exclude=bin/";
-var CTAGS_TAG_FILE_NAME = "tags";
+var CTAGS_TAG_FILE_NAME = ".tags";
 var LARGE_FILE_SIZE_BYTE = (50 * 1024 * 1024); // 50MB
 var Status;
 (function (Status) {
